@@ -1,12 +1,15 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
+  "name": "mimon-web",
+  "version": "0.1.0",
+  "homepage": "https://mimons.io",
   "private": true,
   "scripts": {
     "build": "rollup -c",
     "dev": "HOST=0.0.0.0 rollup -c -w",
-    "start": "sirv public --no-clear",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "start": "sirv public --single",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "5.15.4",
@@ -32,6 +35,7 @@
     "typescript": "^4.0.0"
   },
   "dependencies": {
+    "gh-pages": "3.2.3",
     "sirv-cli": "^1.0.0"
   }
 }

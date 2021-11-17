@@ -1,0 +1,27 @@
+main p {
+  font-size: 2em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333334;
+}
+
+.wrap {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+.paragraph-text {
+  font-family: "Source Code Pro", monospace;
+}
+
+@media screen and (max-width: 768px) {
+  .wrap {
+    margin: 0px 0px;
+  }
+}

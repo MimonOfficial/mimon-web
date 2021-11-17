@@ -6,11 +6,11 @@
     <div class="paragraph">
       <div class="paragraph-title"><b>What is MIMON?</b></div>
       <div class="paragraph-text">
-        Mimon is a randomly generated collection of 10,000 NFTs based on the
-        Ethereum blockchain. Each Mimon created through programming with the
-        combination of more than 000 attributes is a manifestation of latent
-        desires in our dreams, and all Mimons are very special. Confront the
-        latent desires of your subconscious mind!
+        Mimon is a collection of 10,000 NFTs that is randomly generated using 
+        the Ethereum blockchain. Each Mimon, created as a combination of 
+        various programmed attributes, is a actualization of your fantasies, 
+        the latent desires discovered in dreams. It's time to come face to 
+        face with those subconscious desires of yours.
       </div>
     </div>
     <div class="img-wrap">

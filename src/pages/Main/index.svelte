@@ -8,11 +8,10 @@
 </script>
 
 <div class="background-banner">
-
   <Header />
   <Banner />
 </div>
-<div class="v">
+<div class="background-explain">
   <MainExplain />
   <SubExplain />
 </div>

@@ -7,18 +7,12 @@
   } from '@fortawesome/free-brands-svg-icons'
 </script>
 
-<div class="background">
   <div class="wrap">
     <nav class="navbar">
       <a href="/">
         <img class="logo-img" src="/assets/logo.png" alt="mainlogo" />
       </a>
       <ul class="nav-icon-wrap">
-        <li>
-          <a href="https://twitter.com/MIMON_OFFICIAL" target="_blank"
-            ><Fa icon={faTwitter} size="2x" /></a
-          >
-        </li>
         <li>
           <a href="https://twitter.com/MIMON_OFFICIAL" target="_blank"
             ><Fa icon={faTwitter} size="2x" /></a
@@ -32,13 +26,8 @@
       </ul>
     </nav>
   </div>
-</div>
 
 <style>
-  .background {
-    background-image: url('/assets/main_container.png');
-    background-size: 100%;
-  }
   .navbar {
     display: flex;
     justify-content: space-between;

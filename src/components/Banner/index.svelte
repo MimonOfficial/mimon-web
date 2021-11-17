@@ -1,34 +1,33 @@
 <script lang="ts">
+  function alertMessage() {
+    alert('coming soon')
+  }
 </script>
 
-<div class="background">
-  <div class="wrap">
-    <div class="banner">
-      <div class="banner-content">
-        <div class="banner-title"><b>Fultill Your Desire, <br />Mimon</b></div>
-        <div class="banner-text">
-          In Dream, Face to face the <br />latent beautiful desires
-        </div>
-        <div class="banner-btn"><b>MINT NOW !!!</b></div>
+<div class="wrap">
+  <div class="banner">
+    <div class="banner-content">
+      <div class="banner-title"><b>Fulfill Your Desire, <br />MIMON</b></div>
+      <div class="banner-text">
+        In Dream, Face to face the <br />latent beautiful desires
       </div>
-      <div class="banner-img-wrap">
-        <img class="banner-img" src="/assets/main_mimon.png" alt="banner-img" />
+      <!-- <div class="banner-btn"><b>MINT NOW !!!</b></div> -->
+      <div class="banner-btn" on:click={alertMessage}>
+        <b>COMING SOON !!!</b>
       </div>
+    </div>
+    <div class="banner-img-wrap">
+      <img class="banner-img" src="/assets/main_mimon.png" alt="banner-img" />
     </div>
   </div>
 </div>
 
 <style>
-  .background {
-    background-image: url('/assets/main_container.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
   .banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 12px;
+    margin: 0 20px;
   }
 
   .banner-content {
@@ -59,7 +58,7 @@
     width: 50%;
     height: 50px;
     border-radius: 50px;
-    background-color: #CDB4DB;
+    background-color: #cdb4db;
     box-sizing: border-box;
     cursor: pointer;
     padding: 10px;
@@ -102,7 +101,7 @@
       width: 70%;
       height: 50px;
       border-radius: 50px;
-      background-color: #CDB4DB;
+      background-color: #cdb4db;
       box-sizing: border-box;
       cursor: pointer;
       padding: 10px;

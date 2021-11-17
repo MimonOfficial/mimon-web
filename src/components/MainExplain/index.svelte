@@ -1,36 +1,38 @@
 <script lang="ts">
 </script>
 
-<div class="background">
-  <div class="wrap">
-    <div class="content-wrap">
-      <div class="paragraph">
-        <div class="paragraph-title"><b>What is MIMON?</b></div>
-        <div class="paragraph-text">
-          Mimon is a randomly generated collection of 10,000 NFTs based on the
-          Ethereum blockchain. Each Mimon created through programming with the
-          combination of more than 000 attributes is a manifestation of latent
-          desires in our dreams, and all Mimons are very special. Confront the
-          latent desires of your subconscious mind!
-        </div>
+<div class="wrap">
+  <div class="content-wrap">
+    <div class="paragraph">
+      <div class="paragraph-title"><b>What is MIMON?</b></div>
+      <div class="paragraph-text">
+        Mimon is a randomly generated collection of 10,000 NFTs based on the
+        Ethereum blockchain. Each Mimon created through programming with the
+        combination of more than 000 attributes is a manifestation of latent
+        desires in our dreams, and all Mimons are very special. Confront the
+        latent desires of your subconscious mind!
       </div>
-      <div class="img-wrap">
-        <img
-          class="explain-img"
-          src="/assets/main_explain.png"
-          alt="main-explain"
-        />
-      </div>
+    </div>
+    <div class="img-wrap">
+      <img
+        class="explain-img"
+        src="/assets/main_explain.png"
+        alt="main-explain"
+      />
     </div>
   </div>
 </div>
 
 <style>
+  .wrap {
+    background: white;
+  }
   .content-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 12px;
+    margin: 0 20px;
+    padding-bottom: 100px;
   }
   .paragraph {
     width: 40%;
@@ -62,6 +64,7 @@
       align-items: center;
       margin: 0 20px;
       flex-direction: column;
+      padding-bottom: 50px;
     }
     .paragraph {
       width: 100%;

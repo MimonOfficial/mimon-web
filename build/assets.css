@@ -16,6 +16,10 @@ a {
   margin: 0px auto;
 }
 
+.paragraph-text {
+  font-family: "Source Code Pro", monospace;
+}
+
 @media screen and (max-width: 768px) {
   .wrap {
     margin: 0px 0px;

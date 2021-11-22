@@ -1,116 +1,139 @@
-<script lang="ts">
-  import Fa from 'svelte-fa'
-  import { faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons'
+<script>
 </script>
 
-<div class="wrap">
-  <div class="footer-wrap">
-    <div class="left-section">
-      <div class="logo-part">
-        <img class="logo-img" src="/assets/logo.png" alt="mainlogo" />
+<div class="background">
+  <div class="wrap">
+    <div class="struct">
+      <div class="left-side">
+        <div class="logo">
+          <img class="logo-img" src="/assets/logo.png" alt="logo" />
+        </div>
+        <div class="logo-bottom-text">
+          10,000 unique dream, fulfill your desire, Mimon!
+        </div>
       </div>
-      <div class="explain-part">
-        <div>ⓒ2021 DE3SFUL LABS, All rights reserved.</div>
+      <div class="right-side">
+        <div class="link-list">
+          <div class="link-button">Opensea</div>
+          <div class="link-button">Opensea</div>
+          <div class="link-button">Opensea</div>
+          <div class="link-button">Opensea</div>
+          <div class="link-button">Opensea</div>
+        </div>
+        <div class="email">E-Mail. mimon@mimons.io</div>
+        <div class="copyright">
+          Copyright 2021 DE3SFUL LABS, All rights reserved.
+        </div>
       </div>
-    </div>
-    <div class="right-section">
-      <ul class="nav-icon-wrap">
-        <li>
-          <a href="https://twitter.com/MIMON_OFFICIAL" target="_blank"
-            ><Fa icon={faTwitter} size="2x" /></a
-          >
-        </li>
-        <li>
-          <a href="https://discord.com/invite/t4sAvpTT" target="_blank"
-            ><Fa icon={faDiscord} size="2x" /></a
-          >
-        </li>
-      </ul>
     </div>
   </div>
-  <!-- <nav class="navbar">
-    <a href="/">
-      <img class="logo-img" src="/assets/logo.png" alt="mainlogo" />
-    </a>
-    <ul class="nav-icon-wrap">
-      <li>
-        <a href="https://twitter.com/MIMON_OFFICIAL" target="_blank"
-          ><Fa icon={faTwitter} size="2x" /></a
-        >
-      </li>
-      <li>
-        <a href="https://discord.com/invite/t4sAvpTT" target="_blank"
-          ><Fa icon={faDiscord} size="2x" /></a
-        >
-      </li>
-    </ul>
-  </nav> -->
 </div>
 
 <style>
-  .footer-wrap {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 20px;
-    margin-bottom: 50px;
-  }
-  .left-section {
-    display: flex;
-    flex-direction: column;
+  .background {
+    background-color: #fbdee5;
   }
 
-  .logo-part {
-    margin-bottom: 20px;
+  .struct {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 40px;
+    padding: 67px 0px;
   }
-  .explain-part {
-    font-family: 'Source Code Pro', monospace;
-    color: gray;
-    font-size: 1rem;
+
+  .left-side {
+    width: 30%;
+  }
+
+  .right-side {
+    width: 30%;
+  }
+
+  .logo {
+    width: 50%;
+    margin-bottom: 38px;
   }
 
   .logo-img {
-    width: 150px;
+    width: 100%;
   }
 
-  .nav-icon-wrap {
+  .logo-bottom-text {
+    font-family: Sansation Light;
+    font-size: 1.125rem;
+    color: #484848;
+    font-weight: 300;
+  }
+
+  .link-list {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 57px;
   }
 
-  li {
-    padding: 10px;
+  .link-button {
+    font-family: Sansation Light;
+    font-size: (1.125rem);
+    color: #484848;
+    font-weight: 300;
+    margin-left: 38px;
   }
 
-  a {
-    text-decoration: none;
-    color: #eb8f9b;
+  .email {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Sansation Light;
+    font-size: (1.125rem);
+    color: #484848;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Sansation Light;
+    font-size: (1.125rem);
+    color: #484848;
+    font-weight: 300;
+    margin-bottom: 41px;
   }
 
   @media screen and (max-width: 768px) {
-    .footer-wrap {
+    .struct {
       display: flex;
-      justify-content: space-between;
-      margin: 0 20px;
-      margin-bottom: 50px;
       flex-direction: column;
+      justify-content: space-between;
+      /* align-items: center; */
+      margin: 0 40px;
+      padding: 67px 0px;
+    }
+    .left-side {
+      width: 100%;
+      margin-bottom: 30px;
     }
 
-    .explain-part {
-      font-family: 'Source Code Pro', monospace;
-      color: gray;
-      margin-bottom: 50px;
-    }
-    .nav-icon-wrap {
-      display: flex;
-      justify-content: center;
+    .right-side {
+      width: 100%;
     }
 
-    .logo-part {
+    .link-list {
       display: flex;
-      justify-content: center;
-      margin-bottom: 20px;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 57px;
     }
-    .logo-img {
-      width: 50%;
+
+    .link-button {
+      display: flex;
+      font-family: Sansation Light;
+      font-size: 1.125rem;
+      color: #484848;
+      font-weight: 300;
+      margin-left: 38px;
     }
   }
 </style>

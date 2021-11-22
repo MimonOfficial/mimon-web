@@ -1,114 +1,215 @@
-<script lang="ts">
-  import TeanCard from './TeamCard.svelte'
-
-  interface Team {
-    image: string
-    name: string
-    explain: string
-    twitter: string
-  }
-
-  const teamData: Array<Team> = [
-    {
-      image: '/assets/team1.png',
-      name: 'Patxi',
-      explain: 'Untill the day Bitcoin becomes the world number one surrency.',
-      twitter: 'https://twitter.com/MIMON_OFFICIAL',
-    },
-    {
-      image: '/assets/team1.png',
-      name: 'Linling',
-      explain:
-        'If a pill that keeps young forever, this guy will sell everything that has even all of bitcoin just to acquire some.',
-      twitter: 'https://twitter.com/MIMON_OFFICIAL',
-    },
-    {
-      image: '/assets/team1.png',
-      name: 'Elixir',
-      explain: 'Likes cats, developed a blockchain called popcateum.',
-      twitter: 'https://twitter.com/elixirevo',
-    },
-    {
-      image: '/assets/team1.png',
-      name: 'Scale',
-      explain:
-        'This person thinks own brain is being controlled by the brain in the vat. Absolute mental this guy.',
-      twitter: 'https://twitter.com/scaeil',
-    },
-    {
-      image: '/assets/team1.png',
-      name: 'Means',
-      explain: 'Wants to float in the Mediterranean sea and loves seafood.',
-      twitter: 'https://twitter.com/m_ean_s',
-    },
-    {
-      image: '/assets/team1.png',
-      name: 'Songul',
-      explain:
-        'Going to run a guest house on an island. All Mimon holders are entitled for free access!',
-      twitter: 'https://twitter.com/songgul_',
-    },
-  ]
+<script>
 </script>
 
-<div class="wrap">
-  <div class="content-wrap">
-    <div class="paragraph-title">
-      <b>THE TEAM</b>
+<div class="background">
+  <div class="wrap">
+    <div class="struct">
+      <div class="title-side">
+        <div class="title">TEAM</div>
+      </div>
     </div>
-    <div class="team-section">
-      {#each teamData as item}
-        <TeanCard
-          image={item.image}
-          name={item.name}
-          explain={item.explain}
-          twitter={item.twitter}
-        />
-      {/each}
+  </div>
+  <div class="wrap">
+    <div class="struct-content">
+      <div class="box-side">
+        <div class="box">
+          <div class="box-img">
+            <img class="img-size" src="/assets/team1.png" alt="team" />
+          </div>
+          <div class="box-content">
+            <div class="box-title-section">
+              <div class="box-title">Patxi</div>
+              <div class="box-icon" />
+            </div>
+            <div class="box-paragraph">
+              Untill the day Bitcoin becomes the world number one surrency.
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img class="img-size" src="/assets/team1.png" alt="team" />
+          </div>
+          <div class="box-content">
+            <div class="box-title-section">
+              <div class="box-title">Linling</div>
+              <div class="box-icon" />
+            </div>
+            <div class="box-paragraph">
+              If a pill that keeps young forever, this guy will sell everything
+              that has even all of bitcoin just to acquire some.
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img class="img-size" src="/assets/team1.png" alt="team" />
+          </div>
+          <div class="box-content">
+            <div class="box-title-section">
+              <div class="box-title">Elixir</div>
+              <div class="box-icon" />
+            </div>
+            <div class="box-paragraph">
+              Likes cats, developed a blockchain called popcateum.
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img class="img-size" src="/assets/team1.png" alt="team" />
+          </div>
+          <div class="box-content">
+            <div class="box-title-section">
+              <div class="box-title">Scale</div>
+              <div class="box-icon" />
+            </div>
+            <div class="box-paragraph">
+              This person thinks own brain is being controlled by the brain in
+              the vat. Absolute mental this guy.
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img class="img-size" src="/assets/team1.png" alt="team" />
+          </div>
+          <div class="box-content">
+            <div class="box-title-section">
+              <div class="box-title">Means</div>
+              <div class="box-icon" />
+            </div>
+            <div class="box-paragraph">
+              Wants to float in the Mediterranean sea and loves seafood.
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img class="img-size" src="/assets/team1.png" alt="team" />
+          </div>
+          <div class="box-content">
+            <div class="box-title-section">
+              <div class="box-title">Songul</div>
+              <div class="box-icon" />
+            </div>
+            <div class="box-paragraph">
+              Going to run a guest house on an island. All Mimon holders are
+              entitled for free access!
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <div>
+    <img class="line" src="/assets/component_line_2.png" alt="line" />
   </div>
 </div>
 
-<style>
-  .content-wrap {
+<style lang="scss">
+  .background {
+    background: #fbdee5;
+  }
+  .struct {
     display: flex;
-    justify-content: space-between;
-    margin: 0 20px;
-    padding-top: 100px;
-    padding-bottom: 100px;
     flex-direction: column;
-  }
-
-  .paragraph-title {
-    font-size: 2.5rem;
-    margin-bottom: 50px;
-  }
-
-  .team-section {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+    padding-top: 121px;
+    padding-bottom: 34px;
+  }
+
+  .struct-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 40px;
+    align-items: center;
+    padding-bottom: 170px;
+  }
+
+  .title-side {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 34px;
+  }
+
+  .title {
+    font-family: Comfortaa;
+    font-size: 3.125rem;
+    color: #211919;
+    font-weight: bold;
+  }
+
+  .box-side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: 30%;
+    height: 514px;
+    border: 3px solid #211919;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 20px 5px rgba(0, 0, 0, 0.25);
+    background: #fff6f8;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .box-content {
+    padding: 25px;
+  }
+
+  .box-title-section {
+    display: flex;
+  }
+
+  .box-title {
+    font-family: Comfortaa;
+    font-size: 1.75rem;
+    color: #211919;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  .box-paragraph {
+    font-family: Sansation Light;
+    font-size: 1.125rem;
+    color: #484848;
+    font-weight: 300;
+  }
+
+  .img-size {
+    width: 100%;
+    background-color: lightgray;
+  }
+
+  .line {
+    width: 100%;
   }
 
   @media screen and (max-width: 768px) {
-    .content-wrap {
+    .box-side {
+      width: 100%;
       display: flex;
-      justify-content: space-between;
-      margin: 0 20px;
-      padding-top: 50px;
-      padding-bottom: 50px;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
-
-    .paragraph-title {
-      font-size: 2.5rem;
-      margin-bottom: 50px;
-    }
-
-    .team-section {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+    .box {
+      width: 100%;
+      border: 3px solid #211919;
+      box-sizing: border-box;
+      box-shadow: none;
+      background: #fff6f8;
+      margin-right: 0px;
+      margin-bottom: 30px;
     }
   }
 </style>

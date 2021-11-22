@@ -61,6 +61,7 @@
   }
 
   .text-paragraph {
+    font-family: Sansation Light;
     font-size: 1.5rem;
     color: #484848;
     font-weight: 300;

@@ -24,6 +24,12 @@
         <div class="copyright">
           Copyright 2021 DE3SFUL LABS, All rights reserved.
         </div>
+        <div class="copyright-mobile">
+          Copyright 2021 DE3SFUL LABS,
+        </div>
+        <div class="copyright-mobile">
+          All rights reserved.
+        </div>
       </div>
     </div>
   </div>
@@ -43,15 +49,15 @@
   }
 
   .left-side {
-    width: 30%;
+    width: 45%;
   }
 
   .right-side {
-    width: 30%;
+    width: 55%;
   }
 
   .logo {
-    width: 50%;
+    width: 25%;
     margin-bottom: 38px;
   }
 
@@ -75,7 +81,7 @@
 
   .link-button {
     font-family: Sansation Light;
-    font-size: (1.125rem);
+    font-size: 1.125rem;
     color: #484848;
     font-weight: 300;
     margin-left: 38px;
@@ -101,7 +107,15 @@
     margin-bottom: 41px;
   }
 
+  .copyright-mobile {
+    display: none;
+  }
+
   @media screen and (max-width: 768px) {
+    .logo {
+      width: 60%;
+      margin-bottom: 38px;
+    }
     .struct {
       display: flex;
       flex-direction: column;
@@ -122,9 +136,8 @@
     .link-list {
       display: flex;
       flex-direction: column;
-      justify-content: flex-end;
-      align-items: center;
-      margin-bottom: 57px;
+      align-items: flex-end;
+      margin-bottom: 10px;
     }
 
     .link-button {
@@ -133,7 +146,26 @@
       font-size: 1.125rem;
       color: #484848;
       font-weight: 300;
-      margin-left: 38px;
+      margin-bottom: 10px;
+    }
+
+    .copyright {
+      display: none;
+    }
+    .copyright-mobile {
+      display: flex;
+      justify-content: flex-end;
+      font-family: Sansation Light;
+      font-size: (1.125rem);
+      color: #484848;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+
+    .link-list-mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
     }
   }
 </style>

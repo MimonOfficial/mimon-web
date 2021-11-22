@@ -117,7 +117,7 @@
   }
 
   .box-paragraph-section {
-    /* font-family: Sansation Light; */
+    font-family: Sansation Light;
     font-size: 1.125rem;
     color: #484848;
     font-weight: 300;

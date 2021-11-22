@@ -38,7 +38,7 @@
     {
       image: '/assets/team5.jpg',
       name: 'ELIXIR',
-      explain: 'This guy Likes cats, developed a blockchain called POPCATTIUM.',
+      explain: 'This guy Likes cats, developed a blockchain called POPCATEUM.',
       twitter: 'https://twitter.com/elixirevo',
     },
     {

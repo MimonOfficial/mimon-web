@@ -31,7 +31,7 @@
     },
     {
       image: '/assets/team4.jpg',
-      name: 'MEAMS',
+      name: 'MEANS',
       explain: 'Wants to float in the Mediterranean sea and loves seafood.',
       twitter: 'https://twitter.com/m_ean_s',
     },

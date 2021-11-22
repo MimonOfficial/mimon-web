@@ -1,11 +1,10 @@
 <script lang="ts">
-  import Slogan from '@/components/Slogan/index.svelte'
+  import Banner from '@/components/Banner/index.svelte'
   import Info from '@/components/Info/index.svelte'
   import Team from '@/components/Team/index.svelte'
 </script>
 
-<img class="main-img" src="/assets/mainimg.png" alt="mainimg" />
-<Slogan />
+<Banner />
 <Info />
 <Team />
 

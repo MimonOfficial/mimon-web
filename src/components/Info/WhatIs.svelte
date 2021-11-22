@@ -32,6 +32,10 @@
 <style lang="scss">
   .background {
     background-color: $background-color;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #211919;
+    border-top-width: 5px;
   }
   .struct {
     display: flex;

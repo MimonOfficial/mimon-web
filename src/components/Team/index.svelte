@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+  import Fa from 'svelte-fa'
+  import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 </script>
 
 <div class="background">
@@ -19,7 +21,11 @@
           <div class="box-content">
             <div class="box-title-section">
               <div class="box-title">Patxi</div>
-              <div class="box-icon" />
+              <div class="box-icon">
+                <a href="https://twitter.com/MIMON_OFFICIAL" target="_blank"
+                  ><Fa icon={faTwitter} size="2x" /></a
+                >
+              </div>
             </div>
             <div class="box-paragraph">
               Untill the day Bitcoin becomes the world number one surrency.
@@ -147,20 +153,19 @@
   .box-side {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
   }
 
   .box {
-    width: 30%;
-    height: 514px;
+    width: 31%;
+    height: 530px;
     border: 3px solid #211919;
     box-sizing: border-box;
     box-shadow: 15px 15px 20px 5px rgba(0, 0, 0, 0.25);
     background: #fff6f8;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .box-content {
@@ -169,6 +174,8 @@
 
   .box-title-section {
     display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
   }
 
   .box-title {
@@ -204,6 +211,7 @@
     }
     .box {
       width: 100%;
+      height: auto;
       border: 3px solid #211919;
       box-sizing: border-box;
       box-shadow: none;

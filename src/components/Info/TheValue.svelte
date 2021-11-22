@@ -94,7 +94,7 @@
     /* justify-content: center; */
     align-items: center;
     width: 30%;
-    height: 670px;
+    height: 700px;
     padding: 30px 34px;
     border: 3px solid #211919;
     box-sizing: border-box;
@@ -110,7 +110,7 @@
 
   .box-title-section {
     font-family: Comfortaa;
-    font-size: 1.875rem;
+    font-size: 1.6rem;
     color: #211919;
     font-weight: bold;
     margin-bottom: 27px;
@@ -130,6 +130,24 @@
 
   .line {
     width: 100%;
+  }
+
+  @media screen and (max-width: 1130px) {
+    .box {
+      height: 750px;
+    }
+  }
+
+  @media screen and (max-width: 1020px) {
+    .box {
+      height: 900px;
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .box {
+      height: 990px;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -157,6 +175,14 @@
       box-shadow: 15px 15px 20px 5px rgba(0, 0, 0, 0.25);
       background: #fff6f8;
       margin-bottom: 36px;
+    }
+
+    .box-paragraph-section {
+      font-family: Sansation Light;
+      font-size: 1.125rem;
+      color: #484848;
+      font-weight: 300;
+      line-height: 28px;
     }
   }
 </style>

@@ -7,9 +7,3 @@
 <Banner />
 <Info />
 <Team />
-
-<style>
-  .main-img {
-    width: 100%;
-  }
-</style>

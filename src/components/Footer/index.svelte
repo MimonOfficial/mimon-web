@@ -1,4 +1,5 @@
 <script>
+  import { sns } from '../../links/index'
 </script>
 
 <div class="background">
@@ -14,28 +15,31 @@
       </div>
       <div class="right-side">
         <div class="link-list">
-          <div class="link-button">Opensea</div>
-          <div class="link-button">Opensea</div>
-          <div class="link-button">Opensea</div>
-          <div class="link-button">Opensea</div>
-          <div class="link-button">Opensea</div>
+          <div class="link-button">
+            <a href={sns.instagram} target="_blank">Instagram</a>
+          </div>
+          <div class="link-button">
+            <a href={sns.medium} target="_blank">Medium</a>
+          </div>
+          <div class="link-button">
+            <a href={sns.twitter} target="_blank">Twitter</a>
+          </div>
+          <div class="link-button">
+            <a href={sns.discord} target="_blank">Discord</a>
+          </div>
         </div>
         <div class="email">E-Mail. mimon@mimons.io</div>
         <div class="copyright">
           Copyright 2021 DE3SFUL LABS, All rights reserved.
         </div>
-        <div class="copyright-mobile">
-          Copyright 2021 DE3SFUL LABS,
-        </div>
-        <div class="copyright-mobile">
-          All rights reserved.
-        </div>
+        <div class="copyright-mobile">Copyright 2021 DE3SFUL LABS,</div>
+        <div class="copyright-mobile">All rights reserved.</div>
       </div>
     </div>
   </div>
 </div>
 
-<style>
+<style lang="scss">
   .background {
     background-color: #fbdee5;
   }
@@ -82,9 +86,11 @@
   .link-button {
     font-family: Sansation Light;
     font-size: 1.125rem;
-    color: #484848;
     font-weight: 300;
     margin-left: 38px;
+    a {
+      color: #ec7084;
+    }
   }
 
   .email {
@@ -160,12 +166,6 @@
       color: #484848;
       font-weight: 300;
       margin-bottom: 10px;
-    }
-
-    .link-list-mobile {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
     }
   }
 </style>

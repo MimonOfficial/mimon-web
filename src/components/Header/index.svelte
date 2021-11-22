@@ -8,9 +8,16 @@
     faInstagram,
   } from '@fortawesome/free-brands-svg-icons'
   import { faBars } from '@fortawesome/free-solid-svg-icons'
+  import Menu from './Menu.svelte'
+
+  let showModal = false
 
   function alertFunc() {
     alert('Coming Soon!')
+  }
+
+  function modalBtn() {
+    showModal = !showModal
   }
 </script>
 
@@ -21,7 +28,7 @@
         <img class="logo-img" src="/assets/logo.png" alt="mainlogo" />
       </a>
     </div>
-    <div class="menu-button">
+    <div class="menu-button" on:click={modalBtn}>
       <Fa icon={faBars} size="2x" />
     </div>
 
@@ -53,6 +60,8 @@
     </div>
   </div>
 </div>
+
+<Menu {showModal} on:click={modalBtn} />
 
 <style lang="scss">
   .navbar {
@@ -130,6 +139,8 @@
     }
 
     .menu-button {
+      display: flex;
+      justify-content: flex-end;
       width: 10%;
       display: block;
     }

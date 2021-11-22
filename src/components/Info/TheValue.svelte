@@ -50,6 +50,11 @@
   </div>
   <div>
     <img class="line" src="/assets/component_line_2.png" alt="line" />
+    <img
+      class="line-mobile"
+      src="/assets/component_line_mobile2.png"
+      alt="line"
+    />
   </div>
 </div>
 
@@ -96,10 +101,10 @@
     width: 30%;
     height: 700px;
     padding: 30px 34px;
-    border: 3px solid #211919;
+    /* border: 3px solid #211919; */
     box-sizing: border-box;
     box-shadow: 15px 15px 20px 5px rgba(0, 0, 0, 0.25);
-    background: #fff6f8;
+    background: #f6bcca;
   }
 
   .box-img-section {
@@ -129,7 +134,12 @@
   }
 
   .line {
+    display: block;
     width: 100%;
+  }
+
+  .line-mobile {
+    display: none;
   }
 
   @media screen and (max-width: 1130px) {
@@ -170,10 +180,10 @@
       width: 100%;
       height: auto;
       padding: 30px 34px;
-      border: 3px solid #211919;
+      /* border: 3px solid #211919; */
       box-sizing: border-box;
       box-shadow: 15px 15px 20px 5px rgba(0, 0, 0, 0.25);
-      background: #fff6f8;
+      background: #f6bcca;
       margin-bottom: 36px;
     }
 
@@ -183,6 +193,16 @@
       color: #484848;
       font-weight: 300;
       line-height: 28px;
+    }
+
+    .line {
+      display: none;
+      width: 100%;
+    }
+
+    .line-mobile {
+      display: block;
+      width: 100%;
     }
   }
 </style>

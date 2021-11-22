@@ -26,6 +26,11 @@
   </div>
   <div>
     <img class="line" src="/assets/conponent_line.png" alt="line" />
+    <img
+      class="line-mobile"
+      src="/assets/component_line_mobile.png"
+      alt="line"
+    />
   </div>
 </div>
 
@@ -73,7 +78,12 @@
   }
 
   .line {
+    display: block;
     width: 100%;
+  }
+
+  .line-mobile {
+    display: none;
   }
 
   @media screen and (max-width: 768px) {
@@ -86,6 +96,16 @@
     }
 
     .text-side {
+      width: 100%;
+    }
+
+    .line {
+      display: none;
+      width: 100%;
+    }
+
+    .line-mobile {
+      display: block;
       width: 100%;
     }
   }

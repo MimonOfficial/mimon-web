@@ -5,7 +5,7 @@
   <div class="wrap">
     <div class="struct">
       <div class="title-side">
-        <div class="title">ROAMDMAP</div>
+        <div class="title">ROADMAP</div>
       </div>
       <div class="sub-title-one-side">
         <div class="sub-title">STEP 1. Falling Asleep</div>
@@ -15,48 +15,43 @@
       <div class="box-side">
         <div class="box-wrap">
           <div class="box_1">
-            <div class="box-dummy" />
             <div class="box-text">0%</div>
-            <div class="box-description">Free airdrop event through community!</div>
           </div>
+          <div class="box-description">Free airdrop event through community!</div>
         </div>
         <div class="box-wrap">
           <div class="box_2">
-            <div class="box-dummy" />
             <div class="box-text">25%</div>
-            <div class="box-description">
-              The first partners with Mimon have been announced and there may be additional
-              collaborations.
-            </div>
+          </div>
+          <div class="box-description">
+            The first partners with Mimon have been announced and there may be additional
+            collaborations.
           </div>
         </div>
         <div class="box-wrap">
           <div class="box_3">
-            <div class="box-dummy" />
             <div class="box-text">50%</div>
-            <div class="box-description">
-              A portion of the proceeds are donated to charities, such as charities, to deliver
-              dreams and hopes.
-            </div>
+          </div>
+          <div class="box-description">
+            A portion of the proceeds are donated to charities, such as charities, to deliver dreams
+            and hopes.
           </div>
         </div>
         <div class="box-wrap">
           <div class="box_4">
-            <div class="box-dummy" />
             <div class="box-text">75%</div>
-            <div class="box-description">
-              ETH airdrop through community lottery among 3 or more Mimon holders
-            </div>
+          </div>
+          <div class="box-description">
+            ETH airdrop through community lottery among 3 or more Mimon holders
           </div>
         </div>
         <div class="box-wrap">
           <div class="box_5">
-            <div class="box-dummy" />
             <div class="box-text">100%</div>
-            <div class="box-description">
-              *After Mimon's minting is over, there will be additional collaborations centered on
-              Mimon holders.
-            </div>
+          </div>
+          <div class="box-description">
+            *After Mimon's minting is over, there will be additional collaborations centered on
+            Mimon holders.
           </div>
         </div>
       </div>
@@ -73,7 +68,7 @@
           <img class="sub-middle-img" src="/assets/middle_line.png" alt="middle-line" />
         </div>
         <div class="sub-right-section">
-          <div class="sub-title">STEP 3. REM Sleep</div>
+          <div class="sub-right-title">STEP 3. REM Sleep</div>
           <div class="sub-section-description">
             The Mimon team dreams of entering the metaverse platform through Mimon and opening
             offline events. Mimon holders are planning to share each other's dreams and experience
@@ -145,7 +140,9 @@
 
   .box-wrap {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 30%;
     margin-bottom: 50px;
   }
@@ -163,8 +160,17 @@
     font-size: 2.125rem;
     color: #fd749b;
     font-weight: bold;
-    margin-bottom: 58px;
+    margin-bottom: 28px;
     text-align: right;
+  }
+
+  .sub-right-title {
+    font-family: Comfortaa;
+    font-size: 2.125rem;
+    color: #fd749b;
+    font-weight: bold;
+    margin-bottom: 28px;
+    text-align: left;
   }
 
   .box_1 {
@@ -174,13 +180,14 @@
     max-height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     box-shadow: 10px 15px 20px 5px rgba(0, 0, 0, 0.25);
     background-image: url('/assets/m_0.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    margin-bottom: 30px;
   }
 
   .box_2 {
@@ -197,6 +204,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
   }
 
   .box_3 {
@@ -213,6 +222,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+
   }
 
   .box_4 {
@@ -229,6 +241,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+
   }
 
   .box_5 {
@@ -245,6 +260,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+
   }
 
   .box-dummy {
@@ -261,14 +279,14 @@
 
   .box-description {
     font-size: 0.9em;
-    margin-bottom: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
     color: #888888;
+    text-align: center;
+    height: 40px;
   }
 
   .sub-description {
     font-family: Comfortaa;
+    margin-bottom: 10px;
     font-size: 1.525rem;
     color: #333333;
   }
@@ -284,8 +302,8 @@
     display: flex;
     width: 1%;
     height: 700px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .sub-right-section {
@@ -315,6 +333,7 @@
   .sub-middle-img {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
   }
 
   .line {

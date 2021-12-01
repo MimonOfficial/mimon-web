@@ -63,7 +63,7 @@
     margin-bottom: 15px;
   }
 
-  box-title-section {
+  .box-title-section {
     font-family: Comfortaa;
     font-size: 1.5rem;
     color: #211919;

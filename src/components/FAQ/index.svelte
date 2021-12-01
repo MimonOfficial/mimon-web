@@ -200,4 +200,36 @@
     font-weight: bold;
     margin-bottom: 42px;
   }
+  @media screen and (max-width: 768px) {
+    .box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 21px 15px 31px;
+      width: 100%;
+      border: 3px solid #211919;
+      box-sizing: border-box;
+      line-height: 35px;
+    }
+
+    .box-number {
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    .content-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px 15px 30px;
+      width: 100%;
+      border-left: 3px solid #211919;
+      border-right: 3px solid #211919;
+      border-bottom: 3px solid #211919;
+      box-sizing: border-box;
+      /* margin-bottom: 15px; */
+      background-color: #fbdee5;
+    }
+  }
 </style>

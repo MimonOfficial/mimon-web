@@ -187,7 +187,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   .box_2 {
@@ -205,7 +205,7 @@
     background-size: cover;
     border-radius: 20px;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   .box_3 {
@@ -223,8 +223,7 @@
     background-size: cover;
     border-radius: 20px;
     justify-content: center;
-    margin-bottom: 30px;
-
+    margin-bottom: 40px;
   }
 
   .box_4 {
@@ -242,8 +241,7 @@
     background-size: cover;
     border-radius: 20px;
     justify-content: center;
-    margin-bottom: 30px;
-
+    margin-bottom: 40px;
   }
 
   .box_5 {
@@ -261,13 +259,7 @@
     background-size: cover;
     border-radius: 20px;
     justify-content: center;
-    margin-bottom: 30px;
-
-  }
-
-  .box-dummy {
-    width: 10px;
-    height: 40px;
+    margin-bottom: 40px;
   }
 
   .box-text {
@@ -390,6 +382,8 @@
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
     }
 
     .box_2 {
@@ -407,6 +401,8 @@
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
     }
 
     .box_3 {
@@ -424,6 +420,8 @@
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
     }
 
     .box_4 {
@@ -441,6 +439,8 @@
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
     }
 
     .box_5 {
@@ -458,6 +458,8 @@
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
     }
 
     .sub-title-two-side {

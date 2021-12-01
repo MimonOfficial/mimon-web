@@ -23,7 +23,7 @@
   .struct {
     display: flex;
     margin: 0 40px;
-    padding-top: 385px;
+    padding-top: 150px;
     padding-bottom: 95px;
   }
 

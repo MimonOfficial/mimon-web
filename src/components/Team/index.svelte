@@ -11,16 +11,9 @@
   const teamData: Array<Team> = [
     {
       image: '/assets/team1.jpg',
-      name: 'PATIX',
+      name: 'PATXI',
       explain: 'Until the day Bitcoin becomes the worlds number one currency!',
       twitter: 'https://twitter.com/patxikim',
-    },
-    {
-      image: '/assets/team2.png',
-      name: 'SCALE',
-      explain:
-        'This person thinks own brain is being controlled by the brain in the vat. Absolute mental this guy.',
-      twitter: 'https://twitter.com/scaeil',
     },
     {
       image: '/assets/team3.png',
@@ -47,6 +40,13 @@
       explain:
         'Going to run a guest house on an island. All Mimon holders are entitled for free access!',
       twitter: 'https://twitter.com/songgul_',
+    },
+    {
+      image: '/assets/team2.png',
+      name: 'SCALE',
+      explain:
+        'This person thinks own brain is being controlled by the brain in the vat. Absolute mental this guy.',
+      twitter: 'https://twitter.com/scaeil',
     },
   ]
 </script>
@@ -75,11 +75,7 @@
   </div>
   <div>
     <img class="line" src="/assets/component_line_2.png" alt="line" />
-    <img
-      class="line-mobile"
-      src="/assets/component_line_mobile.png"
-      alt="line"
-    />
+    <img class="line-mobile" src="/assets/component_line_mobile.png" alt="line" />
   </div>
 </div>
 

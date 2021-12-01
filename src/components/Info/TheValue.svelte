@@ -14,11 +14,10 @@
           </div>
           <div class="box-title-section">Art & Technology</div>
           <div class="box-paragraph-section">
-            The Mimon team received artistic inspiration from contemporary dream
-            research, which states that dreams appear through brain algorithms
-            as a combination of everyday memories and unconscious desires. As
-            for technological inspiration, it has been influenced by generative
-            art, an art that has been generated through programming.
+            The Mimon team received artistic inspiration from contemporary dream research, which
+            states that dreams appear through brain algorithms as a combination of everyday memories
+            and unconscious desires. As for technological inspiration, it has been influenced by
+            generative art, an art that has been generated through programming.
           </div>
         </div>
         <div class="box">
@@ -27,10 +26,9 @@
           </div>
           <div class="box-title-section">Blockchain Property</div>
           <div class="box-paragraph-section">
-            Dreams are centralized in the individual human and vanishes from
-            memory when the individual awakes. However, Mimon is decentralized
-            through the Ethereum network and exists forever in the blockchain
-            world.
+            Dreams are centralized in the individual human and vanishes from memory when the
+            individual awakes. However, Mimon is decentralized through the Ethereum network and
+            exists forever in the blockchain world.
           </div>
         </div>
         <div class="box">
@@ -39,10 +37,9 @@
           </div>
           <div class="box-title-section">Authentic Happiness</div>
           <div class="box-paragraph-section">
-            We think that actualizing desire is a beautiful thing, and that
-            which makes us happy. Therefore, we believe that collecting desires
-            through the minting of Mimon, which in itself is at once a dream and
-            a desire, can lead to happiness.
+            We think that actualizing desire is a beautiful thing, and that which makes us happy.
+            Therefore, we believe that collecting desires through the minting of Mimon, which in
+            itself is at once a dream and a desire, can lead to happiness.
           </div>
         </div>
       </div>
@@ -50,11 +47,7 @@
   </div>
   <div>
     <img class="line" src="/assets/component_line_2.png" alt="line" />
-    <img
-      class="line-mobile"
-      src="/assets/component_line_mobile2.png"
-      alt="line"
-    />
+    <img class="line-mobile" src="/assets/component_line_mobile2.png" alt="line" />
   </div>
 </div>
 
@@ -109,6 +102,7 @@
 
   .box-img-section {
     width: 70%;
+    height: 14vw;
     margin-top: 16px;
     margin-bottom: 36px;
   }
@@ -184,6 +178,13 @@
       box-sizing: border-box;
       box-shadow: 15px 15px 20px 5px rgba(0, 0, 0, 0.25);
       background: #f6bcca;
+      margin-bottom: 36px;
+    }
+
+    .box-img-section {
+      width: 70%;
+      height: auto;
+      margin-top: 16px;
       margin-bottom: 36px;
     }
 

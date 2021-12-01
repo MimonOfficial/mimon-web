@@ -10,4 +10,4 @@
 <Info />
 <Roadmap />
 <Team />
-<!-- <FAQ /> -->
+<FAQ />

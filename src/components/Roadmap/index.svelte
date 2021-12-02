@@ -496,6 +496,15 @@
       text-align: center;
     }
 
+    .sub-right-title {
+      font-family: Comfortaa;
+      font-size: 1.325rem;
+      color: #fd749b;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
     .sub-description {
       font-family: Comfortaa;
       font-size: 1.125rem;

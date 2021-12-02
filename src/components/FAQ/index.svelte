@@ -99,6 +99,9 @@
 <style>
   .background {
     background: #fff9fa;
+    border-bottom-style: solid;
+    border-bottom-color: #211919;
+    border-bottom-width: 5px;
   }
   .struct {
     display: flex;

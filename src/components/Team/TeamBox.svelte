@@ -6,6 +6,7 @@
   export let name: string
   export let explain: string
   export let twitter: string
+  export let position: string
 </script>
 
 <div class="box">
@@ -19,6 +20,9 @@
         <a href={twitter} target="_blank"><Fa icon={faTwitter} size="2x" /></a>
       </div>
     </div>
+    <div class="box-position">
+      {position}
+    </div>
     <div class="box-paragraph">
       {explain}
     </div>
@@ -28,7 +32,7 @@
 <style lang="scss">
   .box {
     width: 31%;
-    height: 530px;
+    height: 550px;
     border: 3px solid #211919;
     box-sizing: border-box;
     box-shadow: 15px 15px 20px 5px rgba(0, 0, 0, 0.25);
@@ -58,6 +62,15 @@
     font-size: 1.125rem;
     color: #484848;
     font-weight: 300;
+  }
+
+  .box-position {
+    font-family: Comfortaa;
+    font-size: 1.2rem;
+    color: #484848;
+    font-weight: 300;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
   }
 
   .img-size {

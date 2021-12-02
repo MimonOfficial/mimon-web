@@ -56,7 +56,7 @@
           <div class="icon-button"><Fa icon={faInstagram} size="1x" /></div>
         </a>
       </div>
-      <div class="connect-button" on:click={alertFunc}>Wallet Conect</div>
+      <div class="connect-button" on:click={alertFunc}>Wallet Connect</div>
     </div>
   </div>
 </div>

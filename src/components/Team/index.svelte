@@ -6,6 +6,7 @@
     name: string
     explain: string
     twitter: string
+    position: string
   }
 
   const teamData: Array<Team> = [
@@ -14,6 +15,7 @@
       name: 'PATXI',
       explain: 'Until the day Bitcoin becomes the worlds number one currency!',
       twitter: 'https://twitter.com/patxikim',
+      position: 'Direcitor',
     },
     {
       image: '/assets/team3.png',
@@ -21,18 +23,21 @@
       explain:
         'If a pill that keeps young forever, she will sell all of bitcoin that she has just to acquire some.',
       twitter: 'https://twitter.com/linlinglife',
+      position: 'Artist',
     },
     {
       image: '/assets/team4.jpg',
       name: 'MEANS',
       explain: 'Wants to float in the Mediterranean sea and loves seafood.',
       twitter: 'https://twitter.com/m_ean_s',
+      position: 'Artist',
     },
     {
       image: '/assets/team5.jpg',
       name: 'ELIXIR',
       explain: 'This guy Likes cats, developed a blockchain called POPCATEUM.',
       twitter: 'https://twitter.com/elixirevo',
+      position: 'Developer',
     },
     {
       image: '/assets/team6.jpg',
@@ -40,6 +45,7 @@
       explain:
         'Going to run a guest house on an island. All Mimon holders are entitled for free access!',
       twitter: 'https://twitter.com/songgul_',
+      position: 'Planning Manager',
     },
     {
       image: '/assets/team2.png',
@@ -47,6 +53,7 @@
       explain:
         'This person thinks own brain is being controlled by the brain in the vat. Absolute mental this guy.',
       twitter: 'https://twitter.com/scaeil',
+      position: 'Product Manager',
     },
   ]
 </script>
@@ -68,6 +75,7 @@
             name={item.name}
             explain={item.explain}
             twitter={item.twitter}
+            position={item.position}
           />
         {/each}
       </div>

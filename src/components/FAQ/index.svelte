@@ -186,7 +186,7 @@
     cursor: pointer;
   }
 
-  .box-button:hover {
+  .box-button:active {
     /* width: 35px;
     height: 35px; */
     background-color: #f096a7;

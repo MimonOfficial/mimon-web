@@ -68,17 +68,17 @@
       <div class="box-side">
         {#each faqData as item, index}
           <div class="box-wrap">
-            <div class="box">
+            <div
+              class="box"
+              on:click={() => {
+                popupBtn(index)
+              }}
+            >
               <div class="box-title-section">
                 <div class="box-number">{item.number}.</div>
                 <div class="box-title">{item.title}</div>
               </div>
-              <div
-                class="box-button"
-                on:click={() => {
-                  popupBtn(index)
-                }}
-              >
+              <div class="box-button">
                 <Fa icon={faChevronDown} size="1x" />
               </div>
             </div>
@@ -149,6 +149,7 @@
     width: 100%;
     border: 3px solid #211919;
     box-sizing: border-box;
+    cursor: pointer;
     /* margin-bottom: 15px; */
   }
 

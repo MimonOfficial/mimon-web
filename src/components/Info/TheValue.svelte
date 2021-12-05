@@ -102,7 +102,7 @@
 
   .box-img-section {
     width: 70%;
-    height: 14vw;
+    height: 30%;
     margin-top: 16px;
     margin-bottom: 36px;
   }
@@ -121,10 +121,12 @@
     color: #484848;
     font-weight: 300;
     line-height: 28px;
+    height: 100%;
   }
 
   .img-size {
     width: 100%;
+    /* height: 100%; */
   }
 
   .line {

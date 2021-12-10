@@ -15,7 +15,7 @@
       name: 'PATXI',
       explain: 'Until the day Bitcoin becomes the worlds number one currency!',
       twitter: 'https://twitter.com/patxikim',
-      position: 'Direcitor',
+      position: 'Director',
     },
     {
       image: '/assets/team3.png',

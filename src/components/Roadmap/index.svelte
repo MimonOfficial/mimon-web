@@ -33,8 +33,7 @@
             <div class="box-text">50%</div>
           </div>
           <div class="box-description">
-            A portion of the proceeds are donated to charities, such as charities, to deliver dreams
-            and hopes.
+            A portion of the proceeds are donated to such as charities, to deliver dreams and hopes.
           </div>
         </div>
         <div class="box-wrap">
@@ -87,7 +86,7 @@
 
 <style>
   .background {
-    background: #fbdee5;
+    background: #fff9fa;
   }
   .struct {
     display: flex;
@@ -274,6 +273,7 @@
     color: #888888;
     text-align: center;
     height: 40px;
+    line-height: 18px;
   }
 
   .sub-description {

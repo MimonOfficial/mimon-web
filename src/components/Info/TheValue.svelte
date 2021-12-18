@@ -5,7 +5,7 @@
   <div class="wrap">
     <div class="struct">
       <div class="title-side">
-        <div class="title">The value of MIMON</div>
+        <div class="title">THE VALUE OF MIMON</div>
       </div>
       <div class="box-side">
         <div class="box">

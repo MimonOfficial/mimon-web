@@ -12,7 +12,7 @@
         />
       </div>
       <div class="text-side">
-        <div class="text-title">What is MIMON?</div>
+        <div class="text-title">WHAT IS MIMON?</div>
         <div class="text-paragraph">
           Mimon is a collection of 10,000 NFTs that is randomly generated using
           the Ethereum blockchain. Each Mimon, as a combination of various

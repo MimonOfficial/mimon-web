@@ -10,7 +10,7 @@
       <div class="box-side">
         <div class="box">
           <div class="box-img-section">
-            <img class="img-size" src="/assets/value_img_1.png" alt="boximg" />
+            <img class="img-size" src="/assets/value_img_1.svg" alt="boximg" />
           </div>
           <div class="box-title-section">Art & Technology</div>
           <div class="box-paragraph-section">
@@ -22,7 +22,7 @@
         </div>
         <div class="box">
           <div class="box-img-section">
-            <img class="img-size" src="/assets/value_img_2.png" alt="boximg" />
+            <img class="img-size" src="/assets/value_img_2.svg" alt="boximg" />
           </div>
           <div class="box-title-section">Blockchain Property</div>
           <div class="box-paragraph-section">
@@ -33,7 +33,7 @@
         </div>
         <div class="box">
           <div class="box-img-section">
-            <img class="img-size" src="/assets/value_img_3.png" alt="boximg" />
+            <img class="img-size" src="/assets/value_img_3.svg" alt="boximg" />
           </div>
           <div class="box-title-section">Authentic Happiness</div>
           <div class="box-paragraph-section">

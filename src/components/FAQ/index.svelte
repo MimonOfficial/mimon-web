@@ -9,8 +9,7 @@
     {
       number: '1',
       title: 'When can I purchase Mimon?',
-      content:
-        'You can participate in the free airdrop event through Discord. The pre-mint and public mint are scheduled for mid-December. A detailed schedule will be announced through the community. Pit-a-pat!!',
+      content: `Pre-sale: December 30th, 12:00 pm UTC Public sale: January 1st, 12:00 pm UTC You can mint from Mimon official website. After minting is completed, you can purchase it at Opensea.`,
       state: false,
     },
     {
@@ -23,14 +22,14 @@
     {
       number: '3',
       title: 'How can I mint Mimon?',
-      content: 'First, make sure you are associated with the metamask wallet. (medium link)',
+      content: 'first, make sure you are conneted with the metamask wallet. (medium link)',
       state: false,
     },
     {
       number: '4',
       title: 'Where can I see my Mimon after purchase?',
       content:
-        'Your Mimon NFT will be displayed on the address you used to purchase Mimon or in your metamask wallet. Once you’ve completed minting, you may also check your purchase through My Collections in OpenSeas.',
+        'Your Mimon NFT will be displayed on the address you used to purchase Mimon or in your metamask wallet. Once you’ve completed minting, you may also check your purchase through My Collections in OpenSea.',
       state: false,
     },
     {

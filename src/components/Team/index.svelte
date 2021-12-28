@@ -21,7 +21,7 @@
       image: '/assets/team3.png',
       name: 'LINLING',
       explain:
-        'If a pill that keeps young forever, she will sell all of bitcoin that she has just to acquire some.',
+        'If there is a pill that keeps young forever, she will sell all of her bitcoin to acquire some.',
       twitter: 'https://twitter.com/linlinglife',
       position: 'Artist',
     },
@@ -35,7 +35,7 @@
     {
       image: '/assets/team5.png',
       name: 'ELIXIR',
-      explain: 'This guy Likes cats, developed a blockchain called POPCATEUM.',
+      explain: 'This guy likes cats, developed a blockchain called POPCATEUM.',
       twitter: 'https://twitter.com/elixirevo',
       position: 'Developer',
     },

@@ -1,8 +1,13 @@
-<script>
+<script lang="ts">
   import Header from '@/components/Header/index.svelte'
 
   function alertFunc() {
     alert('Coming Soon!')
+  }
+
+  function openInNewTab(url: any) {
+    const win: any = window.open(url, '_blank')
+    win.focus()
   }
 </script>
 
@@ -14,7 +19,7 @@
       <div class="side">
         <div class="text">Fulfill Your</div>
         <div class="text">Desire, Mimon</div>
-        <div class="button" on:click={alertFunc}>DREAM</div>
+        <div class="button" on:click={() => openInNewTab('https://mint.mimons.io/')}>Mint Now!</div>
       </div>
     </div>
   </div>

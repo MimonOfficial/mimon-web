@@ -12,6 +12,11 @@
 
   let showModal = false
 
+  function openInNewTab(url: any) {
+    const win: any = window.open(url, '_blank')
+    win.focus()
+  }
+
   function alertFunc() {
     alert('Coming Soon!')
   }
@@ -56,7 +61,7 @@
           <div class="icon-button"><Fa icon={faInstagram} size="1x" /></div>
         </a>
       </div>
-      <div class="connect-button" on:click={alertFunc}>Mint Now!</div>
+      <div class="connect-button" on:click={() => openInNewTab('https://mint.mimons.io/')}>Mint Now!</div>
     </div>
   </div>
 </div>

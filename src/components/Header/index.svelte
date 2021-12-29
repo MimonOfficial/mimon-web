@@ -56,7 +56,7 @@
           <div class="icon-button"><Fa icon={faInstagram} size="1x" /></div>
         </a>
       </div>
-      <div class="connect-button" on:click={alertFunc}>Wallet Connect</div>
+      <div class="connect-button" on:click={alertFunc}>Mint Now!</div>
     </div>
   </div>
 </div>
@@ -111,7 +111,12 @@
 
   .connect-button {
     font-family: Comfortaa;
-    background-color: #f6bcca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f096a7;
+    color: white;
+    font-weight: bold;
     padding: 12px;
     border-radius: 30px;
     margin-left: 30px;

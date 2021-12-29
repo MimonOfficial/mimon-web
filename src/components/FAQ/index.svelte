@@ -9,7 +9,7 @@
     {
       number: '1',
       title: 'When can I purchase Mimon?',
-      content: `Pre-sale: December 30th, 12:00 pm UTC Public sale: January 1st, 12:00 pm UTC You can mint from Mimon official website. After minting is completed, you can purchase it at Opensea.`,
+      content: `Pre-sale: December 30th, 12:00 pm UTC. Public sale: January 3rd, 12:00 pm UTC. You can mint from Mimon official website. After minting is completed, you can purchase it at Opensea.`,
       state: false,
     },
     {

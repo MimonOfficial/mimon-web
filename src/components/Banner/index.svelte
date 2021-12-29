@@ -48,6 +48,8 @@
     align-items: center;
     width: 100px;
     background-color: #f096a7;
+    color: white;
+    font-weight: bold;
     padding: 15px;
     border-radius: 30px;
     cursor: pointer;
@@ -117,6 +119,8 @@
       align-items: center;
       width: 100px;
       background-color: #f096a7;
+      color: white;
+      font-weight: bold;
       padding: 15px;
       border-radius: 30px;
       cursor: pointer;

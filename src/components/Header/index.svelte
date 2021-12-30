@@ -37,11 +37,11 @@
         <a class="icon-link" href={sns.discord} target="_blank">
           <div class="icon-button"><Fa icon={faDiscord} size="1x" /></div>
         </a>
-        <div class="icon-link" on:click={alertFunc} target="_blank">
+        <a class="icon-link" href="https://opensea.io/collection/mimon" target="_blank">
           <div class="icon-button">
             <img class="opensea-icon" src="/assets/opensea_icon.svg" alt="openseaicon" />
           </div>
-        </div>
+        </a>
         <a class="icon-link" href={sns.twitter} target="_blank">
           <div class="icon-button"><Fa icon={faTwitter} size="1x" /></div>
         </a>

@@ -1,12 +1,7 @@
 <script lang="ts">
   import { sns } from '../../links/index'
   import Fa from 'svelte-fa'
-  import {
-    faTwitter,
-    faDiscord,
-    faMedium,
-    faInstagram,
-  } from '@fortawesome/free-brands-svg-icons'
+  import { faTwitter, faDiscord, faMedium, faInstagram } from '@fortawesome/free-brands-svg-icons'
   import { faBars } from '@fortawesome/free-solid-svg-icons'
   import Menu from './Menu.svelte'
 
@@ -44,11 +39,7 @@
         </a>
         <div class="icon-link" on:click={alertFunc} target="_blank">
           <div class="icon-button">
-            <img
-              class="opensea-icon"
-              src="/assets/opensea_icon.svg"
-              alt="openseaicon"
-            />
+            <img class="opensea-icon" src="/assets/opensea_icon.svg" alt="openseaicon" />
           </div>
         </div>
         <a class="icon-link" href={sns.twitter} target="_blank">
@@ -61,7 +52,7 @@
           <div class="icon-button"><Fa icon={faInstagram} size="1x" /></div>
         </a>
       </div>
-      <div class="connect-button" on:click={() => openInNewTab('https://mint.mimons.io/')}>Mint Now!</div>
+      <a href="https://mint.mimons.io"><div class="connect-button">Mint Now!</div></a>
     </div>
   </div>
 </div>

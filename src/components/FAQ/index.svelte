@@ -2,7 +2,6 @@
   import Fa from 'svelte-fa'
   import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
-  let btnState = true
   $: faqData
 
   let faqData = [

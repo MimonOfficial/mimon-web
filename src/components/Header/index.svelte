@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { sns } from '../../links/index'
+  import { links } from '../../links/index'
   import Fa from 'svelte-fa'
   import { faTwitter, faDiscord, faMedium, faInstagram } from '@fortawesome/free-brands-svg-icons'
   import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -34,21 +34,21 @@
 
     <div class="right-side">
       <div class="icons">
-        <a class="icon-link" href={sns.discord} target="_blank">
+        <a class="icon-link" href={links.discord} target="_blank">
           <div class="icon-button"><Fa icon={faDiscord} size="1x" /></div>
         </a>
-        <a class="icon-link" href="https://opensea.io/collection/mimon" target="_blank">
+        <a class="icon-link" href="{links.opensea}n" target="_blank">
           <div class="icon-button">
             <img class="opensea-icon" src="/assets/opensea_icon.svg" alt="openseaicon" />
           </div>
         </a>
-        <a class="icon-link" href={sns.twitter} target="_blank">
+        <a class="icon-link" href={links.twitter} target="_blank">
           <div class="icon-button"><Fa icon={faTwitter} size="1x" /></div>
         </a>
-        <a class="icon-link" href={sns.medium} target="_blank">
+        <a class="icon-link" href={links.medium} target="_blank">
           <div class="icon-button"><Fa icon={faMedium} size="1x" /></div>
         </a>
-        <a class="icon-link" href={sns.instagram} target="_blank">
+        <a class="icon-link" href={links.instagram} target="_blank">
           <div class="icon-button"><Fa icon={faInstagram} size="1x" /></div>
         </a>
       </div>

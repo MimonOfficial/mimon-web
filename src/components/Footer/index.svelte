@@ -1,5 +1,5 @@
 <script>
-  import { sns } from '../../links/index'
+  import { links } from '../../links/index'
 </script>
 
 <div class="background">
@@ -16,16 +16,19 @@
       <div class="right-side">
         <div class="link-list">
           <div class="link-button">
-            <a href={sns.instagram} target="_blank">Instagram</a>
+            <a href={links.opensea} target="_blank">OpenSea</a>
           </div>
           <div class="link-button">
-            <a href={sns.medium} target="_blank">Medium</a>
+            <a href={links.instagram} target="_blank">Instagram</a>
           </div>
           <div class="link-button">
-            <a href={sns.twitter} target="_blank">Twitter</a>
+            <a href={links.medium} target="_blank">Medium</a>
           </div>
           <div class="link-button">
-            <a href={sns.discord} target="_blank">Discord</a>
+            <a href={links.twitter} target="_blank">Twitter</a>
+          </div>
+          <div class="link-button">
+            <a href={links.discord} target="_blank">Discord</a>
           </div>
         </div>
         <div class="email">E-Mail. mimon@mimons.io</div>

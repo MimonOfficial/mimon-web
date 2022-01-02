@@ -22,7 +22,7 @@
     {
       number: '3',
       title: 'How can I mint Mimon?',
-      content: 'first, make sure you are conneted with the metamask wallet. (medium link)',
+      content: 'first, make sure you are conneted with the metamask wallet.',
       state: false,
     },
     {

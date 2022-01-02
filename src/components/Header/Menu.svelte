@@ -1,7 +1,7 @@
 <script lang="ts">
   import Fa from 'svelte-fa'
   import { faTimes } from '@fortawesome/free-solid-svg-icons'
-  import { sns } from '../../links/index'
+  import { links } from '../../links/index'
 
   export let showModal: boolean
 </script>
@@ -14,16 +14,19 @@
     <div class="struct">
       <div class="menu">
         <div class="menu-button">
-          <a href={sns.instagram} target="_blank">Instagram</a>
+          <a href={links.opensea} target="_blank">OpenSea</a>
         </div>
         <div class="menu-button">
-          <a href={sns.medium} target="_blank">Medium</a>
+          <a href={links.instagram} target="_blank">Instagram</a>
         </div>
         <div class="menu-button">
-          <a href={sns.twitter} target="_blank">Twitter</a>
+          <a href={links.medium} target="_blank">Medium</a>
         </div>
         <div class="menu-button">
-          <a href={sns.discord} target="_blank">Discord</a>
+          <a href={links.twitter} target="_blank">Twitter</a>
+        </div>
+        <div class="menu-button">
+          <a href={links.discord} target="_blank">Discord</a>
         </div>
       </div>
     </div>

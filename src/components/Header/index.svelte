@@ -37,7 +37,7 @@
         <a class="icon-link" href={links.discord} target="_blank">
           <div class="icon-button"><Fa icon={faDiscord} size="1x" /></div>
         </a>
-        <a class="icon-link" href="{links.opensea}n" target="_blank">
+        <a class="icon-link" href="{links.opensea}" target="_blank">
           <div class="icon-button">
             <img class="opensea-icon" src="/assets/opensea_icon.svg" alt="openseaicon" />
           </div>
